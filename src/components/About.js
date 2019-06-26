@@ -1,9 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
+import Rainbow from "../hoc/Raibow";
 
-class About extends Component {
-  render() {
-    return <div>About</div>;
-  }
-}
+const About = () => {
+  return (
+    <div className="container">
+      <h1 className="center">This is About</h1>
+    </div>
+  );
+};
 
-export default About;
+export default Rainbow(About);
