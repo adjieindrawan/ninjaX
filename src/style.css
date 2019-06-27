@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.post.card {
+  padding-left: 80px;
+}
+
+.post.card img {
+  position: absolute;
+  opacity: 0.6;
+  left: -85px;
+}
+
+.home .post {
+    overflow: hidden;
+}
